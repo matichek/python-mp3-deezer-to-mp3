@@ -45,7 +45,8 @@ A Python script that:
 1. Install Python 3.x
 2. Install yt-dlp
 3. Install requests
-4. Set BRAVE_API_KEY environment variable (create .env or rename .env.example file with BRAVE_API_KEY="your_brave_api_key")
+4. Install python-dotenv
+5. Set BRAVE_API_KEY environment variable (create .env or rename .env.example file with BRAVE_API_KEY="your_brave_api_key")
 
 So input parameter will be URL to deezer playlist and output directoy will contain .mp3 files with "artist - title" format.
 
@@ -57,6 +58,7 @@ Recommended to create a virtual environment and install dependencies there.
 ```cmd
 python deezer2yt.py "https://www.deezer.com/us/playlist/123456789" ./music-output
 ```
+
 
 # License
 
